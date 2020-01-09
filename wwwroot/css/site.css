@@ -1,0 +1,23 @@
+﻿@font-face {
+    font-family: "Proggy";
+    src: url('/ProggySquare.ttf')
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eee
+}
+
+main {
+    margin: 10px auto;
+    width: calc(100% - 10px);
+    max-width: 7in;
+    border-left: 1px dotted #999;
+    border-right: 1px dotted #999;
+    font-family: Proggy;
+}
+
+h1 {
+    font-weight: normal;
+}

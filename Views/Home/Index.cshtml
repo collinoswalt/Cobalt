@@ -1,0 +1,14 @@
+﻿@model List<Cobalt.Models.Posts.Post>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    @foreach (var item in Model)
+    {
+        <h1>@item.Title</h1>
+        <div id="Body">
+            @item.Body
+        </div>
+    }
+</div>
