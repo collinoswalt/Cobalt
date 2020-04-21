@@ -1,0 +1,14 @@
+﻿@model Tuple<Type, object, List<Cobalt.Models.Editor.EditField>>
+@{
+    ViewData["Title"] = "Edit" + (Model.Item2 == null ? " new " : " ") + Model.Item1.Name;
+}
+
+<div id="Editor">
+    <form>
+    @foreach (var Item in Model.Item3)
+    {
+        @Html.Raw(Item.GetInput())
+        <br>
+    }
+    </form>
+</div>

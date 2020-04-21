@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj": {}
+    "c:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj": {
+    "c:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj",
+        "projectUniqueName": "c:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj",
         "projectName": "Cobalt",
-        "projectPath": "C:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj",
+        "projectPath": "c:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\Cobalt.csproj",
         "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\obj\\",
+        "outputPath": "c:\\Users\\colli\\Projects\\Code\\CS\\Cobalt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.112, )"

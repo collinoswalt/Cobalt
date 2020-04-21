@@ -19,20 +19,10 @@ namespace Cobalt.Controllers
             _logger = logger;
         }
 
-        [HttpGet("/{Id?}")]
-        public IActionResult Index(int Id = 0)
+        [HttpGet]
+        public IActionResult Index(int Page = 1)
         {
-            return View(new List<Post>() {
-                new TextPost(){
-                    Title = "Hello world",
-                    Body = "This is a text post!"
-                }
-            });
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
+            return View(Post.GetPage(Page));
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

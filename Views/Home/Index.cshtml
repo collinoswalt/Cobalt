@@ -4,11 +4,16 @@
 }
 
 <div>
-    @foreach (var item in Model)
+    @foreach (var Item in Model)
     {
-        <h1>@item.Title</h1>
-        <div id="Body">
-            @item.Body
+        <div class="Post">
+            <h1>@Item.Title</h1>
+            <div id="ByLine">
+                <div id="DateTime">@Item.Time</div> <div id="Credit">Collin</div>
+            </div>
+            <div id="Body">
+                @Item.Body
+            </div>
         </div>
     }
 </div>

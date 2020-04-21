@@ -33,3 +33,10 @@ C:\Users\colli\Projects\Code\CS\Cobalt\obj\Debug\netcoreapp3.0\Cobalt.Views.pdb
 C:\Users\colli\Projects\Code\CS\Cobalt\obj\Debug\netcoreapp3.0\Cobalt.dll
 C:\Users\colli\Projects\Code\CS\Cobalt\obj\Debug\netcoreapp3.0\Cobalt.pdb
 C:\Users\colli\Projects\Code\CS\Cobalt\obj\Debug\netcoreapp3.0\Cobalt.csproj.CopyComplete
+C:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\System.Data.SQLite.dll
+C:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll
+C:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll
+C:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll
+C:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll
+c:\Users\colli\Projects\Code\CS\Cobalt\obj\Debug\netcoreapp3.0\Razor\Views\Edit\Edit.cshtml.g.cs
+c:\Users\colli\Projects\Code\CS\Cobalt\bin\Debug\netcoreapp3.0\BCrypt.Net-Next.dll
